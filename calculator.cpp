@@ -51,6 +51,8 @@ int main() {
                 result = fNum / sNum;
                 break;
 
+            default:
+            std::cout << "Unknown error occured.\n"
         }
 
         std::cout << "Result of the operation is: " << result << "\n";
